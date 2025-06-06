@@ -1,0 +1,62 @@
+# Hey Buddy - Voice Assistant
+
+Hey Buddy is a Python-based voice assistant that listens to your commands and responds with helpful actions and information.
+
+## Features
+
+- Tell the current time and date  
+- Search and summarize Wikipedia articles  
+- Open Google in a web browser  
+- Roll a dice (random number 1-6)  
+- Perform simple calculations (plus, minus, times, divided by)  
+- Play songs on YouTube by opening a search page  
+- Read latest news headlines (requires NewsAPI key)  
+- Provide weather updates for any city (requires OpenWeatherMap API key)  
+- Exit the assistant on command  
+
+## Installation
+
+1. Make sure you have Python 3 installed.
+
+2. Install the required Python libraries by running:
+
+
+3. (Optional) To enable news and weather features, sign up for free API keys:
+
+- [NewsAPI](https://newsapi.org/)  
+- [OpenWeatherMap](https://openweathermap.org/api)  
+
+Replace the placeholders `"YOUR_NEWSAPI_KEY"` and `"YOUR_OPENWEATHERMAP_API_KEY"` in `hey_buddy.py` with your API keys.
+
+## Usage
+
+Run the assistant with:
+
+Speak commands like:
+
+- “What’s the time?”  
+- “Roll a dice”  
+- “Calculate 5 plus 7”  
+- “Play Shape of You on YouTube”  
+- “Wikipedia Python programming”  
+- “Tell me the news”  
+- “What’s the weather in London?”  
+- “Exit”
+
+## Project Structure
+
+- `hey_buddy.py` — Main Python script for the assistant  
+- `README.md` — This documentation  
+- `requirements.txt` — List of required Python libraries (optional)
+
+## Future Improvements
+
+- Add voice wake-word detection (“Hey Buddy”)  
+- Add more interactive conversational abilities  
+- Improve error handling and natural language understanding
+
+---
+
+Created by DIVYA.J  
+Date: 13.06.25
+
